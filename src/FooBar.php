@@ -17,4 +17,9 @@ class FooBar {
     {
         return $this->var;
     }
+
+    public function helloWorld()
+    {
+        return 0;
+    }
 }
