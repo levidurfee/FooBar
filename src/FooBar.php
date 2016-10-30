@@ -2,7 +2,9 @@
 
 namespace levidurfee\FooBar;
 
-class FooBar {
+class FooBar implements FooBarInterface {
+    use FooBarTrait;
+
     private $var;
 
     public function __construct($arg = null)
