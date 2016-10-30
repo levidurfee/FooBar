@@ -1,0 +1,19 @@
+{
+  "name": "levidurfee/FooBar",
+  "description": "FooBar",
+  "license": "MIT",
+  "keywords": ["foo", "bar"],
+  "authors": [
+    {
+      "name": "Levi Durfee",
+      "email": "levi.durfee@gmail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "levidurfee\\FooBar\\": "src"
+    }
+  }
+}
