@@ -15,5 +15,4 @@ class FooBarTest extends PHPUnit_Framework_TestCase {
         $fb = new FooBar;
         $this->assertEquals($fb->helloWorld(), 0);
     }
-
 }
